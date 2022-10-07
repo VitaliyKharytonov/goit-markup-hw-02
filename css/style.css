@@ -26,7 +26,8 @@ body{
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;}
-.logo:hover, .logo:focus{color: var(--hover-color);}
+.logo:hover, .logo:focus{
+    color: var(--hover-color);}
 .logo-text{
     color: var(--hover-color);}
 
@@ -72,7 +73,8 @@ body{
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;}
-.button:hover,.button:focus{ background-color: var(--booton-activ);}
+.button:hover,.button:focus{
+    background-color: var(--booton-activ);}
 
     /* стиль заголовків секцій */
 
@@ -109,9 +111,13 @@ body{
 
 .footer{
     background-color: #2F303A;}
-.footer .link{
-    color: var(--auxiliary-text-color);
-    text-decoration: none;}
+.footer>.link{
+        color: var(--auxiliary-text-color);
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        text-decoration: none;}
 .footer .logo{
     color: var(--hover-color);}
 .footer .link:hover, .footer .link:focus{
@@ -124,4 +130,25 @@ body{
 .address .text{
     color: var(--auxiliary-text-color);}
 
+/* портфолио */
+/* фильтр */
 
+.filter-button{
+    color: var(--basic-text-color);
+    background-color: var(--comand-fone);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;}
+.filter-button:hover, .filter-button:focus{
+    color: var(--auxiliary-text-color);
+    background-color: var(--hover-color);}
+.project-name{
+    color: var(--basic-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;}
+.project-text{
+    color: var(--additional-text-color);
+    font-size: 16px;
+    line-height:1.88}
