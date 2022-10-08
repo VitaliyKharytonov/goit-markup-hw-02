@@ -7,9 +7,10 @@
     --comand-fone: #F5F4FA;
     --booton-activ: #188CE8;
 }
+
 body{
     color: var(--additional-text-color);
-    background-color: var(--auxiliary-text-color));
+    background-color: var(--auxiliary-text-color);
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 1.71;
